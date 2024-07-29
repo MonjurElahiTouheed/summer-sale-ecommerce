@@ -62,45 +62,5 @@ document.getElementById('couponBtn').addEventListener('click', function () {
 })
 
 document.getElementById('goHomeBtn').addEventListener('click', function(){
-   window.location.href = 'http://127.0.0.1:5500/';
+   window.location.href = 'https://monjurelahitouheed.github.io/summer-sale-ecommerce/';
 })
-
-/*  function cardClick(target){
-    console.log(target.parentNode);
- }
-*/
-/* function cardTotalPrice(priceElement){
-   const priceContent = document.getElementById(priceElement).innerText;
-   const priceText = priceContent.split(' ')[0];
-   const price = parseFloat(priceText).toFixed(2);
-   document.getElementById("price").innerText = price+"TK";
-}
- 
-
-function cardClick(){
-   cardTotalPrice('priceElement')
-}
-function cardClick2(){
-   cardTotalPrice('priceElement2')
-}
-function cardClick3(){
-   cardTotalPrice('priceElement3')
-}
-function cardClick4(){
-   cardTotalPrice('priceElement4')
-}
-function cardClick5(){
-   cardTotalPrice('priceElement5')
-}
-function cardClick6(){
-   cardTotalPrice('priceElement6')
-}
-function cardClick7(){
-   cardTotalPrice('priceElement7')
-}
-function cardClick8(){
-   cardTotalPrice('priceElement8')
-}
-function cardClick9(){
-   cardTotalPrice('priceElement9')
-} */
